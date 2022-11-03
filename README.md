@@ -12,9 +12,9 @@ a simple and smooth animation/ transition effect to improve the user experience.
 
 ## packages/dependencies used:
 
-- GetX
-- SQFLite
-- Path Provider
+- GetX https://pub.dev/packages/get/install
+- SQFLite https://pub.dev/packages/sqflite/install
+- Path Provider https://pub.dev/packages/path_provider
 
 
 ## See  quick Video & Screenshots below:
