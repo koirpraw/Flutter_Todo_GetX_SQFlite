@@ -12,7 +12,7 @@ class TodoHomePage extends StatelessWidget {
   final TaskController taskController = Get.put(TaskController());
 
   TodoHomePage({Key? key}) : super(key: key);
-  final taskInstance = Task();
+  // final taskInstance = Task();
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +22,14 @@ class TodoHomePage extends StatelessWidget {
         title: const Text(MyApp.title,style: TextStyle(color: Colors.white)),
         centerTitle: true,
         automaticallyImplyLeading: false,
+          actions: [
+            IconButton(
+              onPressed: () {
+
+              },
+              icon: const Icon(Icons.sort_by_alpha_sharp),
+            ),
+          ],
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
