@@ -24,7 +24,7 @@ in the device.
 ![App Flow](assets/flutter_todo_app_flow.png)
 
 ## Low-Fi Wireframe:
-![Low-Fi Wireframe](assets/flutter_todo_lowfi_mock.png)
+![Low-Fi Wireframe](assets/todo_lowfi_mock.png)
 
 
 
