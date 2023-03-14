@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 import '../controller/task_controller.dart';
 import '../main.dart';
@@ -13,14 +14,14 @@ class TodoHomePage extends StatelessWidget {
   final TaskController taskController = Get.put(TaskController());
 
   TodoHomePage({Key? key}) : super(key: key);
+
   // final taskInstance = Task();
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-        title: const Text(MyApp.title,style: TextStyle(color: Colors.white)),
+        title: const Text(MyApp.title, style: TextStyle(color: Colors.white)),
         centerTitle: true,
         automaticallyImplyLeading: false,
 //           actions: [
@@ -43,7 +44,8 @@ class TodoHomePage extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
         ),
         child: const Icon(
-          Icons.add,color: Colors.white,
+          Icons.add,
+          color: Colors.white,
         ),
         onPressed: () {
           Get.toNamed(AddTodoPage.id);
@@ -55,18 +57,25 @@ class TodoHomePage extends StatelessWidget {
               ? Center(
                   child: Column(
                   children: [
+                    // SizedBox(
+                    //   height: Get.height * 0.3,
+                    // ),
                     SizedBox(
+                      height: Get.height * 0.4,
+                        child: Lottie.asset(
+                      'assets/searchTelescope_lottie.json',
                       height: Get.height * 0.3,
-                    ),
+                    )),
                     const Text(
-                      "You don't have any task yet",
+                      "Hmm! Don't have any task yet.",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
                         onPressed: () {
                           Get.toNamed(AddTodoPage.id);
                         },
-                        child: const Text("Create new Task",style: TextStyle(color: Colors.white)))
+                        child: const Text("Create new Task",
+                            style: TextStyle(color: Colors.white)))
                   ],
                 ))
               : ListView.builder(
@@ -133,11 +142,8 @@ class TodoHomePage extends StatelessWidget {
                                 taskController.updateTask(Task(
                                     id: taskController.tasks[index].id,
                                     title: taskController.tasks[index].title,
-                                    isDone: taskController.tasks[index].isDone));
-
-
-
-
+                                    isDone:
+                                        taskController.tasks[index].isDone));
                               },
                               icon: taskController.tasks[index].isDone == 1
                                   ? const Icon(
@@ -148,7 +154,6 @@ class TodoHomePage extends StatelessWidget {
                                       Icons.check_box_outline_blank,
                                       color: Colors.grey,
                                     ))),
-
                     ),
                   ),
                 ),

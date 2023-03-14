@@ -12,9 +12,10 @@ in the device.
 
 ## packages/dependencies used:
 
-- GetX: https://pub.dev/packages/get/install
-- SQFLite: https://pub.dev/packages/sqflite/install
-- Path Provider: https://pub.dev/packages/path_provider
+- [Flutter](https://flutter.dev/)
+- [GetX](https://pub.dev/packages/get/install)
+- [SQFLite](https://pub.dev/packages/sqflite/install)
+- [Path Provider](https://pub.dev/packages/path_provider)
 
 ## App Architecture:MVC
 
@@ -27,12 +28,12 @@ in the device.
 ![Low-Fi Wireframe](assets/todo_lofi_mock.png)
 
 
-
-
-
-
-
 ## See  quick Video & Screenshots below:
+
+
+## Credits:
+- [LottieFiles](https://lottiefiles.com/78631-searching)
+
 
 
 
