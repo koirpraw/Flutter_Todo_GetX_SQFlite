@@ -1,5 +1,6 @@
 # Flutter Todo App- GetX and SQFLite.
 
+
 Todo app with Persistent Local Storage using SQFLite. State management using GetX. MVC architecture used.
 Used a reactive approach to update the UI so that the UI is updated automatically when the data changes. 
 This makes UI rebuild and state changes pretty instant and smooth.SQLite offers a great solution for large storage needs and easily stored 
