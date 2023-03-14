@@ -20,7 +20,7 @@ class TaskController extends GetxController {
 
   Future<void> addTask(String title) async {
     final task = Task(title: title,isDone: 0);
-    tasks.add(task);
+    // tasks.add(task);
     await DBHelper.insert(task);
 
     if (kDebugMode) {
@@ -29,7 +29,7 @@ class TaskController extends GetxController {
   }
 
   void getAllTasks() async {
-    final allTasks = await DBHelper.query();
+    final allTasks = await DBHelper.  query();
     if (allTasks != null) {
       tasks.value = allTasks.map((e) => Task.fromJson(e)).toList().obs;
     }
@@ -38,7 +38,7 @@ class TaskController extends GetxController {
   }
 
   void deleteTask(Task task) async {
-    tasks.remove(task);
+    // tasks.remove(task);
     await DBHelper.delete(task);
     getAllTasks();
     update();

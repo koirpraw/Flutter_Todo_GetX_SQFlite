@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -22,14 +23,16 @@ class TodoHomePage extends StatelessWidget {
         title: const Text(MyApp.title,style: TextStyle(color: Colors.white)),
         centerTitle: true,
         automaticallyImplyLeading: false,
-          actions: [
-            IconButton(
-              onPressed: () {
-
-              },
-              icon: const Icon(Icons.sort_by_alpha_sharp),
-            ),
-          ],
+//           actions: [
+//             IconButton(
+//               onPressed: () {
+// if (kDebugMode) {
+//   print(taskController.tasks.length);
+// }
+//               },
+//               icon: const Icon(Icons.sort_by_alpha_sharp),
+//             ),
+//           ],
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
