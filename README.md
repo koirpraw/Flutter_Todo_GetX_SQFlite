@@ -1,7 +1,7 @@
 # Flutter Todo App- GetX and SQFLite.
-<div style={width:400,heigh:"600"}>
+<!-- <div style={width:400,heigh:"600"}> -->
   ![flutter_todo_sqlite_AdobeExpress](https://user-images.githubusercontent.com/7278348/225148811-f7743454-a59e-47b3-b925-0b9b92c1c693.gif)
-</div>
+<!-- </div> -->
 
 
 Todo app with Persistent Local Storage using SQFLite. State management using GetX. MVC architecture used.
