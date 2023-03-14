@@ -79,12 +79,12 @@ class TodoEdit extends StatelessWidget {
               children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
+                    backgroundColor: Colors.orange,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),
-                  child: const Text('Update'),
+                  child: const Text('Update',style: TextStyle(color: Colors.white),),
                   onPressed: () {
                     // var editing = taskController.tasks[index!];
                     // editing.title = textEditingController.text;

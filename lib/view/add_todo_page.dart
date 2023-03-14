@@ -48,7 +48,7 @@ class AddTodoPage extends StatelessWidget {
                       labelText: 'Add Task',
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: BorderSide(
+                        borderSide: const BorderSide(
                           color: Colors.grey,
                         ),
                       ),
@@ -78,8 +78,8 @@ class AddTodoPage extends StatelessWidget {
     taskController.addTask(titleController.text).then((value) {
       Get.snackbar('title',
           '${titleController.text} added',
-          snackPosition: SnackPosition.TOP,
-          backgroundColor: Colors.green);
+          snackPosition: SnackPosition.BOTTOM,
+          );
 
     });
   }

@@ -43,7 +43,7 @@ class TodoHomePage extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
         ),
         child: const Icon(
-          Icons.add,
+          Icons.add,color: Colors.white,
         ),
         onPressed: () {
           Get.toNamed(AddTodoPage.id);

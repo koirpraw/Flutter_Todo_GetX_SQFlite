@@ -16,6 +16,23 @@ in the device.
 - SQFLite: https://pub.dev/packages/sqflite/install
 - Path Provider: https://pub.dev/packages/path_provider
 
+## App Architecture:MVC
+
+![MVC Architecture](assets/flutter_todo_architecture.png)
+
+## App Business Logic flow:
+![App Flow](assets/flutter_todo_app_flow.png)
+
+## Low-Fi Wireframe:
+![Low-Fi Wireframe](assets/flutter_todo_lowfi_mock.png)
+
+
+
+
+
+
 
 ## See  quick Video & Screenshots below:
+
+
 
