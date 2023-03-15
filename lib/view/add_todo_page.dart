@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_todo_local_sqflite/model/task.dart';
 import 'package:getx_todo_local_sqflite/view/todo_home_page.dart';
 
 import '../controller/task_controller.dart';
@@ -14,10 +13,9 @@ class AddTodoPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add Task',style: TextStyle(color: Colors.white)),
+        title: const Text('Add Task', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         automaticallyImplyLeading: false,
         actions: [
@@ -64,7 +62,7 @@ class AddTodoPage extends StatelessWidget {
               onPressed: () {
                 createTask();
                 taskController.getAllTasks();
-                Get.to(()=>TodoHomePage());
+                Get.to(() => TodoHomePage());
               },
               child: const Text('Add Task'),
             ),
@@ -76,11 +74,11 @@ class AddTodoPage extends StatelessWidget {
 
   createTask() {
     taskController.addTask(titleController.text).then((value) {
-      Get.snackbar('title',
-          '${titleController.text} added',
-          snackPosition: SnackPosition.BOTTOM,
-          );
-
+      Get.snackbar(
+        'title',
+        '${titleController.text} added',
+        snackPosition: SnackPosition.BOTTOM,
+      );
     });
   }
 }
