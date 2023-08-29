@@ -36,7 +36,7 @@ in the device.
 ## See  quick Video & Screenshots below:
 
 
-## Credits:
+## Credits
 - [LottieFiles](https://lottiefiles.com/78631-searching)
 
 ## License
