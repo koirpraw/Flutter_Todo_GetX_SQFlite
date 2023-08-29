@@ -1,6 +1,6 @@
 # Flutter Todo App- GetX and SQFLite.
-<img src= "https://user-images.githubusercontent.com/7278348/225148811-f7743454-a59e-47b3-b925-0b9b92c1c693.gif" width="200" height="380">
-  ![flutter_todo_sqlite_AdobeExpress](https://user-images.githubusercontent.com/7278348/225148811-f7743454-a59e-47b3-b925-0b9b92c1c693.gif)
+<img src= "https://user-images.githubusercontent.com/7278348/225148811-f7743454-a59e-47b3-b925-0b9b92c1c693.gif" width="240" height="430">
+<!--   ![flutter_todo_sqlite_AdobeExpress](https://user-images.githubusercontent.com/7278348/225148811-f7743454-a59e-47b3-b925-0b9b92c1c693.gif) -->
 
 
 
@@ -36,8 +36,11 @@ in the device.
 ## See  quick Video & Screenshots below:
 
 
-## Credits:
+## Credits
 - [LottieFiles](https://lottiefiles.com/78631-searching)
+
+## License
+- MIT
 
 
 
