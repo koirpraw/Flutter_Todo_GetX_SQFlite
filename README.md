@@ -39,6 +39,9 @@ in the device.
 ## Credits:
 - [LottieFiles](https://lottiefiles.com/78631-searching)
 
+## License
+- MIT
+
 
 
 
