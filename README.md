@@ -24,13 +24,16 @@ in the device.
 
 ## App Architecture:MVC
 
-![MVC Architecture](assets/flutter_todo_architecture.png)
+
+<img width="1030" alt="flutter_todo_architecture" src="https://github.com/user-attachments/assets/4346a104-deee-4aa3-8c14-ed3bbb70bc40">
 
 ## App Business Logic flow:
-![App Flow](assets/flutter_todo_app_flow.png)
+
+<img width="1341" alt="flutter_todo_app_flow" src="https://github.com/user-attachments/assets/aef8bf81-2b0e-4d91-92de-d355e2b18d12">
 
 ## Low-Fi Wireframe:
-![Low-Fi Wireframe](assets/todo_lofi_mock.png)
+
+![todo_lofi_mock](https://github.com/user-attachments/assets/1c2fff33-a5f0-45c4-bbdd-16d056ab910f)
 
 
 ## See  quick Video & Screenshots below:
